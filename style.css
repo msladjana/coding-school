@@ -1,0 +1,94 @@
+body {
+	font-family: 'Lato', sans-serif;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+/* colors */
+.primary-color {
+	background-color: #391a46 !important;
+	color: #e5d8ea !important;
+}
+.secondary-color {
+	color: #f1e9f8 !important;
+	background-color: #7d6a8d !important;
+}
+.modal-bg {
+	background-color: #7d6a8d78;
+}
+/* end colors */
+
+/* showcase nav */
+.nav-masthead {
+	background-color: #391a46;
+}
+.nav-masthead .nav-link {
+	padding: .25rem 0;
+	font-weight: 700;
+	color: rgba(255, 255, 255, 0.774);
+	background-color: transparent;
+	border-bottom: .25rem solid transparent;
+}
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+	border-bottom-color: rgba(255, 255, 255, .25);
+}
+.nav-masthead .nav-link + .nav-link {
+	margin-left: 2rem;
+}
+.nav-masthead .active {
+	color: #fff;
+	border-bottom-color: #fff;
+}
+/* end showcase nav */
+
+/* showcase animation */
+.line {
+	width: 15em;
+	margin: 0 auto;
+	border-right: 2px solid rgba(255, 255, 255, .75);
+	white-space: nowrap;
+	overflow: hidden;
+	transform: translateY(-50%);
+}
+.animtype {
+	animation: typewriter 4s steps(44) 1s 1 normal both, blinkTextCursor 500ms steps(44) normal;
+}
+@keyframes typewriter {
+	from {
+		width: 0;
+	}
+	to {
+		width: 15em;
+	}
+}
+@keyframes blinkTextCursor {
+	from {
+		border-right-color: rgba(255, 255, 255, .75);
+	}
+	to {
+		border-right-color: transparent;
+	}
+}
+/* end showcase animation */
+
+/* icons */
+.bi {
+	color: #7d6a8d;
+	font-size: 3rem;
+}
+.quote {
+	color: #7d6a8d33;
+	font-size: 4rem;
+}
+.back-to-top {
+	position: fixed;
+	bottom: 25px;
+	right: 25px;
+	display: none;
+}
+/* end icons */
+@media only screen and (max-width: 576px) {
+	h1 {
+		font-size: 25px;
+	}
+}
