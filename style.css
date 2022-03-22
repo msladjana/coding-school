@@ -80,10 +80,10 @@ body {
 	color: #7d6a8d33;
 	font-size: 4rem;
 }
-.back-to-top {
+#back-to-top {
 	position: fixed;
 	bottom: 25px;
-	right: 25px;
+	right: 25px;	
 	display: none;
 }
 /* end icons */
