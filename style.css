@@ -50,8 +50,20 @@ body {
 	overflow: hidden;
 }
 .animtype {
-	animation: typewriter 4s steps(50) 2s 1 normal both, blinkTextCursor 500ms infinite;
+	/* animation: 
+	name of animation,  
+	animation-duration: how long animation should take to complet,
+	number of steps,
+	delay animation from the start,
+	iteration-count - number of times an animation should run,
+	animation-direction - normal - The animation is played as normal (forwards),
+	fill-mode - both - follow the rules for both keyframes
+	*/
+	animation: typewriter 4s steps(50) 2s 1 normal both, 
+	blinkTextCursor 500ms infinite;
 }
+
+/* @keyframes rule - the animation will gradually change from the current style to the new style at certain times */
 @keyframes typewriter {
 	from {
 		width: 0;
